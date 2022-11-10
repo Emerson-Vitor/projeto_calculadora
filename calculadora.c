@@ -55,6 +55,11 @@ int main(void)
             coleta_operandos(num_op, &num1, &num2);
             res = subtracao(num1, num2);
             break;
+            
+         case '*':
+            coleta_operandos(num_op, &num1, &num2);
+            res = multiplicacao(num1, num2);
+            break;
 
         case '0':
             return 0;
