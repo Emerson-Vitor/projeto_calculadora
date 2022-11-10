@@ -23,6 +23,16 @@ int subtracao(int num1, int num2)
     return num1 - num2;
 }
 
+int multiplicacao(int num1, int num2)
+{
+    int res = 0;
+    for(int i = 0; i < num1; i = soma(i, 1))
+        res = soma(res, num2);
+
+    return res;
+}
+
+
 int main(void)
 {
     char op;
